@@ -9,7 +9,7 @@
 样例输入
 4+2*3-10/4=
 样例输出
-8
+8;
 */
 #include<iostream>
 using namespace std;
