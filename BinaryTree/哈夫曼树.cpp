@@ -59,7 +59,7 @@ void HuffmanCoding(HuffmanTree &HT, HuffmanCode &HC, int w[], int& n, int &sum_w
 	int i;
 	for (p = HT + 1, i = 1; i <= n; i++, p++, w++)
 		*p = { *w,0,0,0 };
-	for (; i <= m; i++)
+	for (; i <= m; i++, p++)
 		*p = { 0,0,0,0 };
 	for (i = n + 1; i <= m; i++)
 	{
